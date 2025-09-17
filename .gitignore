@@ -4,6 +4,7 @@
 # except for .gitignore
 !.gitignore
 !.eslintrc.json
+!.devcontainer
 
 # Ignore Play! working directory #
 db
