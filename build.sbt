@@ -24,6 +24,10 @@ libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-slick-evolutions"   % "5.0.0",
   "org.xerial"        %  "sqlite-jdbc"             % "3.41.2.2",
 
+  "com.google.guava" % "guava" % "32.0.1-jre",
+  "ch.qos.logback" % "logback-classic" % "1.2.13",
+  "ch.qos.logback" % "logback-core" % "1.2.13",
+
   "org.specs2"        %% "specs2-junit"  % "4.10.0" % "test",
   "org.specs2"        %% "specs2-core"   % "4.10.0" % "test",
   "org.specs2"        %% "specs2-mock"   % "4.10.0" % "test"
