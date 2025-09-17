@@ -28,6 +28,16 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.2.13",
   "ch.qos.logback" % "logback-core" % "1.2.13",
 
+  "com.fasterxml.jackson.core" % "jackson-core" % "2.15.4",
+  "com.fasterxml.jackson.core" % "jackson-databind" % "2.15.4",
+  "com.fasterxml.jackson.core" % "jackson-annotations" % "2.15.4",
+  "com.fasterxml.jackson.datatype" % "jackson-datatype-jdk8" % "2.15.4",
+  "com.fasterxml.jackson.datatype" % "jackson-datatype-jsr310" % "2.15.4",
+  "com.fasterxml.jackson.dataformat" % "jackson-dataformat-cbor" % "2.15.4",
+  "com.fasterxml.jackson.module" % "jackson-module-parameter-names" % "2.15.4",
+  "com.fasterxml.jackson.module" % "jackson-module-paranamer" % "2.15.4",
+  "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.15.4",
+
   "org.specs2"        %% "specs2-junit"  % "4.10.0" % "test",
   "org.specs2"        %% "specs2-core"   % "4.10.0" % "test",
   "org.specs2"        %% "specs2-mock"   % "4.10.0" % "test"
